@@ -5,7 +5,7 @@ services:
     build: downloader
     environment:
       - RPCPORT=6800
-      - RPCSECRET=TEST123
+      - pooperscooper=TEST123
       - TORSERVNUM=50
     volumes:
       - ./downloader/conf:/conf
